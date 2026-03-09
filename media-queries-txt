@@ -1,0 +1,10 @@
+| Device Type            | Orientation | Typical Width (px) | CSS Media Query Example                                      |
+| ---------------------- | ----------- | ------------------ | ------------------------------------------------------------ |
+| Small Mobile           | Portrait    | 320–374            | `@media (max-width: 374px) { ... }`                          |
+| Mobile                 | Portrait    | 375–424            | `@media (min-width: 375px) and (max-width: 424px) { ... }`   |
+| Mobile Large / Phablet | Portrait    | 425–599            | `@media (min-width: 425px) and (max-width: 599px) { ... }`   |
+| Tablet                 | Portrait    | 600–767            | `@media (min-width: 600px) and (max-width: 767px) { ... }`   |
+| Tablet                 | Landscape   | 768–1023           | `@media (min-width: 768px) and (max-width: 1023px) { ... }`  |
+| Laptop / Small Desktop | Landscape   | 1024–1279          | `@media (min-width: 1024px) and (max-width: 1279px) { ... }` |
+| Desktop                | Landscape   | 1280–1439          | `@media (min-width: 1280px) and (max-width: 1439px) { ... }` |
+| Large Desktop / 4K     | Landscape   | 1440+              | `@media (min-width: 1440px) { ... }`                         |
